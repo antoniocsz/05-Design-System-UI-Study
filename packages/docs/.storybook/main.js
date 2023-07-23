@@ -22,5 +22,12 @@ const config = {
     autodocs: "tag",
     theme: themes.dark
   },
+  viteFinal: (baseConfig, { configType }) => {
+    if (configType === 'PRODUCTION') {
+      baseConfig.base = '/05-Design-System-UI-Study/'
+    }
+
+    return baseConfig
+  }
 };
 export default config;
