@@ -1,0 +1,6 @@
+{
+  "extends": "@baianotech-ui/ts-config/react.json",
+  "include": [
+    "src"
+  ]
+}
